@@ -1,0 +1,50 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+body{
+    background-image: url("./img/bday.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#abhi-img{
+    margin-top:10px;
+    border:1px solid black;
+    border-radius:50%;
+    height:500px;
+    width:470px;
+    border-style: none;
+}
+
+#bday-wish{
+    text-align: center;
+    text-decoration: none;
+    font-size:80px;
+    color:#fff;
+    animation: glow 1s ease-in infinite alternate;
+    font-family: 'Happy Monkey';
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+
+
+@-webkit-keyframes glow{
+    from{
+        text-shadow:0 0 10px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 50px red, 0 0 60px blue, 0 0 70px blue;
+    }
+}
+footer{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bday-wish{
+    font-size:100px;
+}
